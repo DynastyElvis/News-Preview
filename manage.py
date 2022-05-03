@@ -12,3 +12,6 @@ app = create_app('development')# creating the app instance
 manager = Manager(app) # creating the manager instance
 
 manager.add.command('server',Server) # adding the server command
+
+if __name__ == '__main__':
+    manager.run() # running the manager
