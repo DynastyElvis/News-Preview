@@ -28,7 +28,7 @@ def get_news(): # getting the news
         The urllib.request module defines functions and classes which help in opening URLs (mostly HTTP) in a complex world — basic and digest authentication
         '''
         if get_news_response['articles']:
-            news_results_list = get_news_response['articles']
-            news_results = process_results(news_results_list)
+            news_results_list = get_news_response['articles'] # getting the news results
+            news_results = process_results(news_results_list) # processing the news results
             
-        return news_results
+        return news_results # returning the news results
