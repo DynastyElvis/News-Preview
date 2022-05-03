@@ -7,5 +7,23 @@ users easily.
 
 '''
 class Config: # creating a class for the config
-    NEWS_API_BASE_URL = 'https://newsapi.org/v2/sources?apiKey={}'
+    NEWS_API_BASE_URL = 'https://newsapi.org/v2/sources?apiKey={}' # setting the news api base url
     NEWS_API_KEY = os.environ.get('aa47b48af14d4200bab1105dfc0fe02e')
+    
+    '''
+    
+    This is an application that will help people who want to get realtime 
+    news withouth having to watch TV for the news.
+
+    
+    '''
+class ProdConfig(Config): # creating a class for the production config
+    pass
+
+class DevConfig(Config): # creating a class for the development config
+    DEBUG = True # setting the debug to true
+    
+config_options = { # creating a dictionary for the config options
+'development':DevConfig, # setting the development config
+'production':ProdConfig # setting the production config
+}
