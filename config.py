@@ -7,4 +7,5 @@ users easily.
 
 '''
 class Config: # creating a class for the config
-    
+    NEWS_API_BASE_URL = 'https://newsapi.org/v2/sources?apiKey={}'
+    NEWS_API_KEY = os.environ.get('aa47b48af14d4200bab1105dfc0fe02e')
