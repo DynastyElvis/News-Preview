@@ -24,7 +24,9 @@ def get_news(): # getting the news
         get_news_response = json.loads(get_news_data)
         
         news_results = None
-        
+        '''
+        The urllib.request module defines functions and classes which help in opening URLs (mostly HTTP) in a complex world — basic and digest authentication
+        '''
         if get_news_response['articles']:
             news_results_list = get_news_response['articles']
             news_results = process_results(news_results_list)
