@@ -45,7 +45,7 @@ def get_news(): # getting the news
             publishedAt = news_item.get('publishedAt')
             content = news_item.get('content')
 
-        news_object = News(title,description,urlToImage,publishedAt,content): # creating a news object
+        news_object = News(title,description,urlToImage,publishedAt,content) # creating a news object
         news_results.append(news_object)# appending the news object to the news results list
         
     return news_results # returning the news results
