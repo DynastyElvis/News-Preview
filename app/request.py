@@ -37,15 +37,15 @@ def get_news(): # getting the news
         '''
         process resultand transform to object lists
         '''
-        news_results = []
-        for news_item in news_list:
+        news_results = []# creating a list to store the news results
+        for news_item in news_list: # iterating through the news list
             title = news_item.get('title')
             description = news_item.get('description')
             urlToImage = news_item.get('urlToImage')
             publishedAt = news_item.get('publishedAt')
             content = news_item.get('content')
 
-            if urlToImage:
-                news_object = News(id,title,description,url,urlToImage,publishedAt,content)
-                news_results.append(news_object)
-        return news_results
+        news_object = News(title,description,urlToImage,publishedAt,content): # creating a news object
+        news_results.append(news_object)# appending the news object to the news results list
+        
+    return news_results # returning the news results
