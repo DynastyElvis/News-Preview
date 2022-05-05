@@ -7,9 +7,15 @@ users easily.
 
 '''
 class Config: # creating a class for the config
-    NEWS_API_BASE_URL = 'GET https://newsapi.org/v2/top-headlines?country=us&apiKey=aa47b48af14d4200bab1105dfc0fe02e' # setting the news api base url
-    NEWS_API_KEY = os.environ.get('aa47b48af14d4200bab1105dfc0fe02e')
     
+    
+    NEWS_API_BASE_URL = 'https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey='
+    
+    
+    #NEWS_API_BASE_URL = 'https://newsapi.org/v2/sources?language=en&category={}&apiKey={}%27' # setting the news api base url
+    NEWS_API_KEY = os.environ.get('aa47b48af14d4200bab1105dfc0fe02e')
+    SECRET_KEY = os.environ.get('SECRET_KEY')
+
     '''
     
     This is an application that will help people who want to get realtime 
