@@ -1,7 +1,6 @@
 # News-Preview
 An application that will help us  list and preview news articles from various sources.
 
-# Habari.. Chap Chap
 
 ## Built By [Kipkemoi Elvis](https://github.com/DynastyElvis)
 
@@ -20,6 +19,8 @@ As a user I would like to:
 * See the image, description and time the news article was created
 * Click on an article and read it fully from the news source
 
+[Go Back to the top](#News-Preview)
+
 ## Specifications
 | Behaviour | Input | Output |
 | :---------------- | :---------------: | ------------------: |
@@ -29,6 +30,7 @@ As a user I would like to:
 | Display the preview of an article | **On page load** | Each article displays an image,description and publication date |
 | To Read an entire article  | **Click an article** | Redirected to the news source's site to read the entire article |
 
+[Go Back to the top](#News-Preview)
 
 ## SetUp / Installation Requirements
 ### Prerequisites
@@ -36,11 +38,15 @@ As a user I would like to:
 * pip
 * virtualenv
 
+[Go Back to the top](#News-Preview)
+
 ### Cloning
 * In your terminal:
 
         $ git clone https://github.com/emdeechege/NewsApi/
         $ cd NewsPI
+
+[Go Back to the top](#News-Preview)
 
 ## Running the Application
 * Creating the virtual environment
@@ -73,16 +79,40 @@ As a user I would like to:
         $ chmod +x start.sh
         $ ./start.sh
 
+[Go Back to the top](#News-Preview)
+
 ## Testing the Application
 * To run the tests for the class files:
 
         $ python3.8 manage.py tests
 
+[Go Back to the top](#News-Preview)
+
 ## Technologies Used
 * Python3.8
 * Flask
 
+[Go Back to the top](#News-Preview)
+
 ## License
 
+[MIT LICENCE](https://github.com/DynastyElvis/Password-Locker/blob/main/LICENSE)
+
+
 Copyright (c) 2022 K. E. Rono
+
+
+[Go Back to the top](#News-Preview)
+
+## Known Bugs
+
+No Known Bugs.
+
+[Go Back to the top](#News-Preview)
+
+## Authors Info
+LinkedIn - [KIPKEMOI ELVIS RONO](https://www.linkedin.com/in/elvis-rono-aa3548209/)
+
+[Go Back to the top](#News-Preview)
+
 
