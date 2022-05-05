@@ -7,7 +7,7 @@ An application that will help us  list and preview news articles from various so
 ## Description
 Habri.. Chap chap is a web application that displays a list of various news sources. On choosing a news source, it will preview the top news articles of the day. Clicking a news article will redirect the user to read it fully from the news source. It achieves this by using the [News API](https://newsapi.org/).
 
-You can view the site at: [ My Heroku NEWS Preview](https:/)
+You can view the site at: [ My Heroku NEWS Preview](https:///)
 
 
 ## Screenshot
