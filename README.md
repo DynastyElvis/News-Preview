@@ -47,7 +47,7 @@ As a user I would like to:
 ### Cloning
 * In your terminal:
 
-        $ git clone https://github.com/emdeechege/NewsApi/
+        $ git clone https://github.com/DynastyElvis/News-Preview
         $ cd NewsPI
 
 [Go Back to the top](#News-Preview)
